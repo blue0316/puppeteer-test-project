@@ -1,0 +1,16 @@
+{
+  "endpoint": "https://devopsmetrics.cbre.com/api/v2/metrics",
+  "method": "POST",
+  "headers": {
+    "Content-Type": "application/json",
+    "Authorization": "Basic bWV0cmljdXNlcjpZUnVLcWdFQ1ZNUjZjaG9MUHlraFVwZA=="
+  },
+  "data": {
+    "ApplicationId": 2407,
+    "AutomationProcessId": 20,
+    "AutomationToolId": 183,
+    "Description": "[Description]",
+    "Version": "[Version Number]",
+    "Cycle": "[Build Number]"
+  }
+}
