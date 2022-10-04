@@ -1,10 +1,10 @@
 {
-  "name": "example",
+  "name": "a",
   "version": "1.0.0",
-  "description": "",
+  "description": "Puppeteer Test App",
   "main": "index.js",
   "scripts": {
-    "start": "node index.js"
+    "ci": "node index.js"
   },
   "keywords": [],
   "author": "",
@@ -12,5 +12,14 @@
   "dependencies": {
     "axios": "^0.27.2",
     "puppeteer-cluster": "^0.23.0"
-  }
+  },
+  "devDependencies": {},
+  "repository": {
+    "type": "git",
+    "url": "git+https://github.com/blue0316/puppeteer-test-project.git"
+  },
+  "bugs": {
+    "url": "https://github.com/blue0316/puppeteer-test-project/issues"
+  },
+  "homepage": "https://github.com/blue0316/puppeteer-test-project#readme"
 }
