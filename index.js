@@ -11,7 +11,7 @@ const main = async () => {
         timeout: 120000, // timeout in ms
         //if the steps aren't finished in this time, it will close the browser
         puppeteerOptions: {
-          headless: true,
+          // headless: true,
           defaultViewport: null,
           args: ["--no-sandbox", "--window-size=1920,1080"],
         }, // puppeteer options },
